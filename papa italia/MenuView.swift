@@ -84,6 +84,8 @@ struct MenuView: View {
                 innerMenuView(item: item)
                     .transition(.opacity)
             } else {
+                Spacer()
+                    .frame(height: 16)
                 categoriesView()
                     .transition(.opacity)
             }
@@ -300,8 +302,12 @@ struct MenuItemView: View {
         }
         .background {
             RoundedRectangle(cornerRadius: 8)
-                .fill(.clear)
-                .stroke(.appGold, lineWidth: 2)
+                .stroke(
+                    Color.appGold,
+                    style: StrokeStyle(
+                        lineWidth: 3
+                    )
+                )
         }
     }
     
