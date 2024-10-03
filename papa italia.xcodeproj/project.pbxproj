@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B85930582CA810C30082CDE9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85930572CA810C30082CDE9 /* MainView.swift */; };
+		B859305A2CA83EA80082CDE9 /* SFSafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85930592CA83EA80082CDE9 /* SFSafariView.swift */; };
+		B859305C2CA83F950082CDE9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859305B2CA83F950082CDE9 /* MapView.swift */; };
+		B859305E2CA83FDD0082CDE9 /* NavigationAppSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859305D2CA83FDD0082CDE9 /* NavigationAppSheet.swift */; };
+		B85930602CA845A20082CDE9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859305F2CA845A20082CDE9 /* Constants.swift */; };
+		B85930622CA86F060082CDE9 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85930612CA86F060082CDE9 /* Launch Screen.storyboard */; };
+		B889C07B2CA691260052DDEA /* papa_italiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889C07A2CA691260052DDEA /* papa_italiaApp.swift */; };
+		B889C07D2CA691260052DDEA /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889C07C2CA691260052DDEA /* MenuView.swift */; };
+		B889C07F2CA691280052DDEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B889C07E2CA691280052DDEA /* Assets.xcassets */; };
+		B889C0822CA691280052DDEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B889C0812CA691280052DDEA /* Preview Assets.xcassets */; };
+		B889C08C2CA691280052DDEA /* papa_italiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889C08B2CA691280052DDEA /* papa_italiaTests.swift */; };
+		B889C0962CA691280052DDEA /* papa_italiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889C0952CA691280052DDEA /* papa_italiaUITests.swift */; };
+		B889C0982CA691280052DDEA /* papa_italiaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889C0972CA691280052DDEA /* papa_italiaUITestsLaunchTests.swift */; };
+		B889C0A52CA691E20052DDEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B889C0A42CA691E20052DDEA /* GoogleService-Info.plist */; };
+		B889C0A82CA6922F0052DDEA /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B889C0A72CA6922F0052DDEA /* FirebaseFirestore */; };
+		B889C0AA2CA6922F0052DDEA /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = B889C0A92CA6922F0052DDEA /* FirebaseFirestoreCombine-Community */; };
+		B889C0AC2CA6922F0052DDEA /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B889C0AB2CA6922F0052DDEA /* FirebaseStorage */; };
+		B889C0AE2CA6922F0052DDEA /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = B889C0AD2CA6922F0052DDEA /* FirebaseStorageCombine-Community */; };
+		B889C0B02CA700A00052DDEA /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889C0AF2CA7009F0052DDEA /* Menu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B889C0882CA691280052DDEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B889C06F2CA691260052DDEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B889C0762CA691260052DDEA;
+			remoteInfo = "papa italia";
+		};
+		B889C0922CA691280052DDEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B889C06F2CA691260052DDEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B889C0762CA691260052DDEA;
+			remoteInfo = "papa italia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B85930572CA810C30082CDE9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B85930592CA83EA80082CDE9 /* SFSafariView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSafariView.swift; sourceTree = "<group>"; };
+		B859305B2CA83F950082CDE9 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B859305D2CA83FDD0082CDE9 /* NavigationAppSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationAppSheet.swift; sourceTree = "<group>"; };
+		B859305F2CA845A20082CDE9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B85930612CA86F060082CDE9 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B889C0772CA691260052DDEA /* papa italia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "papa italia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B889C07A2CA691260052DDEA /* papa_italiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = papa_italiaApp.swift; sourceTree = "<group>"; };
+		B889C07C2CA691260052DDEA /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		B889C07E2CA691280052DDEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B889C0812CA691280052DDEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B889C0872CA691280052DDEA /* papa italiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "papa italiaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B889C08B2CA691280052DDEA /* papa_italiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = papa_italiaTests.swift; sourceTree = "<group>"; };
+		B889C0912CA691280052DDEA /* papa italiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "papa italiaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B889C0952CA691280052DDEA /* papa_italiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = papa_italiaUITests.swift; sourceTree = "<group>"; };
+		B889C0972CA691280052DDEA /* papa_italiaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = papa_italiaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B889C0A42CA691E20052DDEA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B889C0AF2CA7009F0052DDEA /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		B88CAD1F2CAE88B5009E682D /* papa-italia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "papa-italia-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B889C0742CA691260052DDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B889C0A82CA6922F0052DDEA /* FirebaseFirestore in Frameworks */,
+				B889C0AA2CA6922F0052DDEA /* FirebaseFirestoreCombine-Community in Frameworks */,
+				B889C0AE2CA6922F0052DDEA /* FirebaseStorageCombine-Community in Frameworks */,
+				B889C0AC2CA6922F0052DDEA /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B889C0842CA691280052DDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B889C08E2CA691280052DDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B889C06E2CA691260052DDEA = {
+			isa = PBXGroup;
+			children = (
+				B889C0792CA691260052DDEA /* papa italia */,
+				B889C08A2CA691280052DDEA /* papa italiaTests */,
+				B889C0942CA691280052DDEA /* papa italiaUITests */,
+				B889C0782CA691260052DDEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B889C0782CA691260052DDEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B889C0772CA691260052DDEA /* papa italia.app */,
+				B889C0872CA691280052DDEA /* papa italiaTests.xctest */,
+				B889C0912CA691280052DDEA /* papa italiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B889C0792CA691260052DDEA /* papa italia */ = {
+			isa = PBXGroup;
+			children = (
+				B88CAD1F2CAE88B5009E682D /* papa-italia-Info.plist */,
+				B889C07A2CA691260052DDEA /* papa_italiaApp.swift */,
+				B889C0AF2CA7009F0052DDEA /* Menu.swift */,
+				B889C07C2CA691260052DDEA /* MenuView.swift */,
+				B85930572CA810C30082CDE9 /* MainView.swift */,
+				B859305F2CA845A20082CDE9 /* Constants.swift */,
+				B85930592CA83EA80082CDE9 /* SFSafariView.swift */,
+				B859305B2CA83F950082CDE9 /* MapView.swift */,
+				B859305D2CA83FDD0082CDE9 /* NavigationAppSheet.swift */,
+				B85930612CA86F060082CDE9 /* Launch Screen.storyboard */,
+				B889C07E2CA691280052DDEA /* Assets.xcassets */,
+				B889C0A42CA691E20052DDEA /* GoogleService-Info.plist */,
+				B889C0802CA691280052DDEA /* Preview Content */,
+			);
+			path = "papa italia";
+			sourceTree = "<group>";
+		};
+		B889C0802CA691280052DDEA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B889C0812CA691280052DDEA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B889C08A2CA691280052DDEA /* papa italiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B889C08B2CA691280052DDEA /* papa_italiaTests.swift */,
+			);
+			path = "papa italiaTests";
+			sourceTree = "<group>";
+		};
+		B889C0942CA691280052DDEA /* papa italiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B889C0952CA691280052DDEA /* papa_italiaUITests.swift */,
+				B889C0972CA691280052DDEA /* papa_italiaUITestsLaunchTests.swift */,
+			);
+			path = "papa italiaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B889C0762CA691260052DDEA /* papa italia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B889C09B2CA691280052DDEA /* Build configuration list for PBXNativeTarget "papa italia" */;
+			buildPhases = (
+				B889C0732CA691260052DDEA /* Sources */,
+				B889C0742CA691260052DDEA /* Frameworks */,
+				B889C0752CA691260052DDEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "papa italia";
+			packageProductDependencies = (
+				B889C0A72CA6922F0052DDEA /* FirebaseFirestore */,
+				B889C0A92CA6922F0052DDEA /* FirebaseFirestoreCombine-Community */,
+				B889C0AB2CA6922F0052DDEA /* FirebaseStorage */,
+				B889C0AD2CA6922F0052DDEA /* FirebaseStorageCombine-Community */,
+			);
+			productName = "papa italia";
+			productReference = B889C0772CA691260052DDEA /* papa italia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B889C0862CA691280052DDEA /* papa italiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B889C09E2CA691280052DDEA /* Build configuration list for PBXNativeTarget "papa italiaTests" */;
+			buildPhases = (
+				B889C0832CA691280052DDEA /* Sources */,
+				B889C0842CA691280052DDEA /* Frameworks */,
+				B889C0852CA691280052DDEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B889C0892CA691280052DDEA /* PBXTargetDependency */,
+			);
+			name = "papa italiaTests";
+			productName = "papa italiaTests";
+			productReference = B889C0872CA691280052DDEA /* papa italiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B889C0902CA691280052DDEA /* papa italiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B889C0A12CA691280052DDEA /* Build configuration list for PBXNativeTarget "papa italiaUITests" */;
+			buildPhases = (
+				B889C08D2CA691280052DDEA /* Sources */,
+				B889C08E2CA691280052DDEA /* Frameworks */,
+				B889C08F2CA691280052DDEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B889C0932CA691280052DDEA /* PBXTargetDependency */,
+			);
+			name = "papa italiaUITests";
+			productName = "papa italiaUITests";
+			productReference = B889C0912CA691280052DDEA /* papa italiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B889C06F2CA691260052DDEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					B889C0762CA691260052DDEA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					B889C0862CA691280052DDEA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B889C0762CA691260052DDEA;
+					};
+					B889C0902CA691280052DDEA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B889C0762CA691260052DDEA;
+					};
+				};
+			};
+			buildConfigurationList = B889C0722CA691260052DDEA /* Build configuration list for PBXProject "papa italia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = he;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				he,
+			);
+			mainGroup = B889C06E2CA691260052DDEA;
+			packageReferences = (
+				B889C0A62CA6922F0052DDEA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = B889C0782CA691260052DDEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B889C0762CA691260052DDEA /* papa italia */,
+				B889C0862CA691280052DDEA /* papa italiaTests */,
+				B889C0902CA691280052DDEA /* papa italiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B889C0752CA691260052DDEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B889C0822CA691280052DDEA /* Preview Assets.xcassets in Resources */,
+				B889C07F2CA691280052DDEA /* Assets.xcassets in Resources */,
+				B889C0A52CA691E20052DDEA /* GoogleService-Info.plist in Resources */,
+				B85930622CA86F060082CDE9 /* Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B889C0852CA691280052DDEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B889C08F2CA691280052DDEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B889C0732CA691260052DDEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B889C0B02CA700A00052DDEA /* Menu.swift in Sources */,
+				B859305E2CA83FDD0082CDE9 /* NavigationAppSheet.swift in Sources */,
+				B859305C2CA83F950082CDE9 /* MapView.swift in Sources */,
+				B85930582CA810C30082CDE9 /* MainView.swift in Sources */,
+				B859305A2CA83EA80082CDE9 /* SFSafariView.swift in Sources */,
+				B889C07D2CA691260052DDEA /* MenuView.swift in Sources */,
+				B889C07B2CA691260052DDEA /* papa_italiaApp.swift in Sources */,
+				B85930602CA845A20082CDE9 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B889C0832CA691280052DDEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B889C08C2CA691280052DDEA /* papa_italiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B889C08D2CA691280052DDEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B889C0982CA691280052DDEA /* papa_italiaUITestsLaunchTests.swift in Sources */,
+				B889C0962CA691280052DDEA /* papa_italiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B889C0892CA691280052DDEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B889C0762CA691260052DDEA /* papa italia */;
+			targetProxy = B889C0882CA691280052DDEA /* PBXContainerItemProxy */;
+		};
+		B889C0932CA691280052DDEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B889C0762CA691260052DDEA /* papa italia */;
+			targetProxy = B889C0922CA691280052DDEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B889C0992CA691280052DDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B889C09A2CA691280052DDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B889C09C2CA691280052DDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"papa italia/Preview Content\"";
+				DEVELOPMENT_TEAM = B3W5W8395N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "papa-italia-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Papa Italia";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digitaldreamsapps.papa-italia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B889C09D2CA691280052DDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"papa italia/Preview Content\"";
+				DEVELOPMENT_TEAM = B3W5W8395N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "papa-italia-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Papa Italia";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digitaldreamsapps.papa-italia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B889C09F2CA691280052DDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3W5W8395N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digitaldreamsapps.papa-italiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/papa italia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/papa italia";
+			};
+			name = Debug;
+		};
+		B889C0A02CA691280052DDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3W5W8395N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digitaldreamsapps.papa-italiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/papa italia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/papa italia";
+			};
+			name = Release;
+		};
+		B889C0A22CA691280052DDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3W5W8395N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digitaldreamsapps.papa-italiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "papa italia";
+			};
+			name = Debug;
+		};
+		B889C0A32CA691280052DDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3W5W8395N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digitaldreamsapps.papa-italiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "papa italia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B889C0722CA691260052DDEA /* Build configuration list for PBXProject "papa italia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B889C0992CA691280052DDEA /* Debug */,
+				B889C09A2CA691280052DDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B889C09B2CA691280052DDEA /* Build configuration list for PBXNativeTarget "papa italia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B889C09C2CA691280052DDEA /* Debug */,
+				B889C09D2CA691280052DDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B889C09E2CA691280052DDEA /* Build configuration list for PBXNativeTarget "papa italiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B889C09F2CA691280052DDEA /* Debug */,
+				B889C0A02CA691280052DDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B889C0A12CA691280052DDEA /* Build configuration list for PBXNativeTarget "papa italiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B889C0A22CA691280052DDEA /* Debug */,
+				B889C0A32CA691280052DDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B889C0A62CA6922F0052DDEA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B889C0A72CA6922F0052DDEA /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B889C0A62CA6922F0052DDEA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B889C0A92CA6922F0052DDEA /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B889C0A62CA6922F0052DDEA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		B889C0AB2CA6922F0052DDEA /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B889C0A62CA6922F0052DDEA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		B889C0AD2CA6922F0052DDEA /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B889C0A62CA6922F0052DDEA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B889C06F2CA691260052DDEA /* Project object */;
+}
