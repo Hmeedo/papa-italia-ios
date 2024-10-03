@@ -73,7 +73,7 @@ struct MenuView: View {
             }
         }
         .task {
-           // await viewModel.loadAllData()
+            await viewModel.loadAllData()
             await viewModel.loadData()
         }
     }

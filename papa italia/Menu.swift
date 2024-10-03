@@ -19,6 +19,8 @@ struct MenuItem: Codable, Identifiable {
     let group_he: String?
     let info_ar: String?
     let info_he: String?
+    let footer_ar: String?
+    let footer_he: String?
     let price: Int?
     let index: Int?
 }
