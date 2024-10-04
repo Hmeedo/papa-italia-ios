@@ -23,6 +23,7 @@ struct MenuItem: Codable, Identifiable {
     let footer_he: String?
     let price: Int?
     let index: Int?
+    let image: String?
 }
 
 extension MenuItem {

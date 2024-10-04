@@ -26,6 +26,8 @@
 		B889C0AC2CA6922F0052DDEA /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B889C0AB2CA6922F0052DDEA /* FirebaseStorage */; };
 		B889C0AE2CA6922F0052DDEA /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = B889C0AD2CA6922F0052DDEA /* FirebaseStorageCombine-Community */; };
 		B889C0B02CA700A00052DDEA /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889C0AF2CA7009F0052DDEA /* Menu.swift */; };
+		B8A72C182CAFE82B009DDB4C /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B8A72C172CAFE82B009DDB4C /* data.json */; };
+		B8D3ACD62CB0423C007834FF /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D3ACD52CB04238007834FF /* MenuViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		B889C0A42CA691E20052DDEA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B889C0AF2CA7009F0052DDEA /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		B88CAD1F2CAE88B5009E682D /* papa-italia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "papa-italia-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B8A72C172CAFE82B009DDB4C /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		B8D3ACD52CB04238007834FF /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,9 +123,11 @@
 		B889C0792CA691260052DDEA /* papa italia */ = {
 			isa = PBXGroup;
 			children = (
+				B8A72C172CAFE82B009DDB4C /* data.json */,
 				B88CAD1F2CAE88B5009E682D /* papa-italia-Info.plist */,
 				B889C07A2CA691260052DDEA /* papa_italiaApp.swift */,
 				B889C0AF2CA7009F0052DDEA /* Menu.swift */,
+				B8D3ACD52CB04238007834FF /* MenuViewModel.swift */,
 				B889C07C2CA691260052DDEA /* MenuView.swift */,
 				B85930572CA810C30082CDE9 /* MainView.swift */,
 				B859305F2CA845A20082CDE9 /* Constants.swift */,
@@ -277,6 +283,7 @@
 				B889C0822CA691280052DDEA /* Preview Assets.xcassets in Resources */,
 				B889C07F2CA691280052DDEA /* Assets.xcassets in Resources */,
 				B889C0A52CA691E20052DDEA /* GoogleService-Info.plist in Resources */,
+				B8A72C182CAFE82B009DDB4C /* data.json in Resources */,
 				B85930622CA86F060082CDE9 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +312,7 @@
 				B889C0B02CA700A00052DDEA /* Menu.swift in Sources */,
 				B859305E2CA83FDD0082CDE9 /* NavigationAppSheet.swift in Sources */,
 				B859305C2CA83F950082CDE9 /* MapView.swift in Sources */,
+				B8D3ACD62CB0423C007834FF /* MenuViewModel.swift in Sources */,
 				B85930582CA810C30082CDE9 /* MainView.swift in Sources */,
 				B859305A2CA83EA80082CDE9 /* SFSafariView.swift in Sources */,
 				B889C07D2CA691260052DDEA /* MenuView.swift in Sources */,
