@@ -54,6 +54,14 @@ extension MenuItem {
         }
     }
     
+    var footer: String {
+        if lan == "ar" {
+            footer_ar ?? ""
+        }else {
+            footer_he ?? ""
+        }
+    }
+    
     var priceString: String {
         if price == 0 || price == nil {
             lan == "ar" ? "مجاناً" : "חינם"

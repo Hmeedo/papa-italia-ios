@@ -148,9 +148,10 @@ struct MenuView: View {
                 ForEach(0..<meals.count) { index in
                     let item = meals[index]
                     let shouldShowInfo = index == 0 || item.group != meals[index - 1].group
-                    mealView(item: item,shouldShowInfo: shouldShowInfo)
+                    let shouldShowFooter = index < (meals.count - 1) && meals[index + 1].group != item.group
+                    mealView(item: item,shouldShowInfo: shouldShowInfo, shouldShowFooter: shouldShowFooter)
                 }
-            }else {
+            } else {
                 ProgressView()
                     .task {
                         guard let id = item.id else { return }
@@ -200,7 +201,7 @@ struct MenuView: View {
         }
     }
     
-    @ViewBuilder func mealView(item: MenuItem, shouldShowInfo: Bool) -> some View {
+    @ViewBuilder func mealView(item: MenuItem, shouldShowInfo: Bool, shouldShowFooter: Bool) -> some View {
         VStack(alignment: .leading, spacing: 2) {
             if shouldShowInfo, item.group.count > 0 {
                 HStack(spacing: 4) {
@@ -227,9 +228,7 @@ struct MenuView: View {
                         )
                         .frame(height: 1)
                         .ignoresSafeArea()
-                    
                 }
-                
             }
             
             HStack {
@@ -245,6 +244,14 @@ struct MenuView: View {
                 Text(item.info)
                     .font(.subheadline)
                     .padding(.horizontal)
+            }
+            
+            if shouldShowFooter, item.footer.count > 0 {
+                Text(item.footer)
+                    .font(.headline)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 32)
+                    .padding(.top)
             }
         }
         .padding(.bottom)
